@@ -1,5 +1,13 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts"
+  },
+  "deploy": {
+    "project": "1fd00af6-c699-4e0c-9ce8-c5a794a90592",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
   }
 }
